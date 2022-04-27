@@ -53,7 +53,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func relancerAction(_ sender: Any) {
-        self.ramdomizedImage()
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "second") as? ConnectionViewController {
+            //show a modal named second after conditions
+//                self.present(vc, animated: true, completion: nil)
+            self.navigationController?.pushViewController(vc, animated: true)
+//            }
+        }
     }
 }
 
