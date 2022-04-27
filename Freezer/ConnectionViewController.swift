@@ -15,7 +15,16 @@ class ConnectionViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func registerButton(_ sender: Any) {
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "registerview") as? RegisterViewController {
+            //show a modal named second after conditions
+//                self.present(vc, animated: true, completion: nil)
+            self.navigationController?.pushViewController(vc, animated: true)
+//            }
+        }
+        
+    }
+    
     /*
     // MARK: - Navigation
 

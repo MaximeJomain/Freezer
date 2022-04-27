@@ -11,6 +11,7 @@
 		2F3966E2154621D8189EE616 /* Pods_Freezer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553EB9B8C1D7C87060909B2B /* Pods_Freezer.framework */; };
 		3C28284928184F1000B3CD02 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28284828184F1000B3CD02 /* Dog.swift */; };
 		3CC0528C28193A9D00309A98 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0528B28193A9D00309A98 /* ConnectionViewController.swift */; };
+		9C1927C928196C2E00B7E8A2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1927C828196C2E00B7E8A2 /* RegisterViewController.swift */; };
 		9C37BA6A281838A800337BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37BA69281838A800337BEA /* AppDelegate.swift */; };
 		9C37BA6C281838A800337BEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37BA6B281838A800337BEA /* SceneDelegate.swift */; };
 		9C37BA6E281838A800337BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37BA6D281838A800337BEA /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		3CC0528B28193A9D00309A98 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
 		553EB9B8C1D7C87060909B2B /* Pods_Freezer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freezer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		731511D92838114A81D45263 /* Pods-Freezer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freezer.debug.xcconfig"; path = "Target Support Files/Pods-Freezer/Pods-Freezer.debug.xcconfig"; sourceTree = "<group>"; };
+		9C1927C828196C2E00B7E8A2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		9C37BA66281838A800337BEA /* Freezer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freezer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C37BA69281838A800337BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C37BA6B281838A800337BEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				9C37BA6B281838A800337BEA /* SceneDelegate.swift */,
 				9C37BA6D281838A800337BEA /* ViewController.swift */,
 				3CC0528B28193A9D00309A98 /* ConnectionViewController.swift */,
+				9C1927C828196C2E00B7E8A2 /* RegisterViewController.swift */,
 				3C28284A28184F1A00B3CD02 /* Model */,
 				9C37BA6F281838A800337BEA /* Main.storyboard */,
 				9C37BA72281838AE00337BEA /* Assets.xcassets */,
@@ -227,6 +230,7 @@
 				9C37BA6E281838A800337BEA /* ViewController.swift in Sources */,
 				9C37BA6A281838A800337BEA /* AppDelegate.swift in Sources */,
 				3CC0528C28193A9D00309A98 /* ConnectionViewController.swift in Sources */,
+				9C1927C928196C2E00B7E8A2 /* RegisterViewController.swift in Sources */,
 				3C28284928184F1000B3CD02 /* Dog.swift in Sources */,
 				9C37BA6C281838A800337BEA /* SceneDelegate.swift in Sources */,
 			);
