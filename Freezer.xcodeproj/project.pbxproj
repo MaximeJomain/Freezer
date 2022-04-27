@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F7C36D828192BC6000CF594 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F7C36D728192BC6000CF594 /* GoogleService-Info.plist */; };
+		2F3966E2154621D8189EE616 /* Pods_Freezer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553EB9B8C1D7C87060909B2B /* Pods_Freezer.framework */; };
 		3C28284928184F1000B3CD02 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28284828184F1000B3CD02 /* Dog.swift */; };
 		9C37BA6A281838A800337BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37BA69281838A800337BEA /* AppDelegate.swift */; };
 		9C37BA6C281838A800337BEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37BA6B281838A800337BEA /* SceneDelegate.swift */; };
@@ -17,7 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F7C36D728192BC6000CF594 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		274DD3F2ADCADB510379B218 /* Pods-Freezer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freezer.release.xcconfig"; path = "Target Support Files/Pods-Freezer/Pods-Freezer.release.xcconfig"; sourceTree = "<group>"; };
 		3C28284828184F1000B3CD02 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		553EB9B8C1D7C87060909B2B /* Pods_Freezer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freezer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731511D92838114A81D45263 /* Pods-Freezer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freezer.debug.xcconfig"; path = "Target Support Files/Pods-Freezer/Pods-Freezer.debug.xcconfig"; sourceTree = "<group>"; };
 		9C37BA66281838A800337BEA /* Freezer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freezer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C37BA69281838A800337BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C37BA6B281838A800337BEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,12 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3966E2154621D8189EE616 /* Pods_Freezer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE774E76FEC0B5AFA3CF55E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				553EB9B8C1D7C87060909B2B /* Pods_Freezer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13AA9741604D093B7690F8C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731511D92838114A81D45263 /* Pods-Freezer.debug.xcconfig */,
+				274DD3F2ADCADB510379B218 /* Pods-Freezer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3C28284A28184F1A00B3CD02 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +76,8 @@
 			children = (
 				9C37BA68281838A800337BEA /* Freezer */,
 				9C37BA67281838A800337BEA /* Products */,
+				13AA9741604D093B7690F8C9 /* Pods */,
+				0FE774E76FEC0B5AFA3CF55E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +100,7 @@
 				9C37BA72281838AE00337BEA /* Assets.xcassets */,
 				9C37BA74281838AE00337BEA /* LaunchScreen.storyboard */,
 				9C37BA77281838AE00337BEA /* Info.plist */,
+				1F7C36D728192BC6000CF594 /* GoogleService-Info.plist */,
 			);
 			path = Freezer;
 			sourceTree = "<group>";
@@ -85,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C37BA7A281838AE00337BEA /* Build configuration list for PBXNativeTarget "Freezer" */;
 			buildPhases = (
+				3E9BEAA89FD64096D68EAF73 /* [CP] Check Pods Manifest.lock */,
 				9C37BA62281838A800337BEA /* Sources */,
 				9C37BA63281838A800337BEA /* Frameworks */,
 				9C37BA64281838A800337BEA /* Resources */,
+				1CF01204922D874B37C32531 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,11 +167,54 @@
 			files = (
 				9C37BA76281838AE00337BEA /* LaunchScreen.storyboard in Resources */,
 				9C37BA73281838AE00337BEA /* Assets.xcassets in Resources */,
+				1F7C36D828192BC6000CF594 /* GoogleService-Info.plist in Resources */,
 				9C37BA71281838A800337BEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF01204922D874B37C32531 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Freezer/Pods-Freezer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Freezer/Pods-Freezer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Freezer/Pods-Freezer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9BEAA89FD64096D68EAF73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Freezer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C37BA62281838A800337BEA /* Sources */ = {
@@ -294,11 +366,13 @@
 		};
 		9C37BA7B281838AE00337BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731511D92838114A81D45263 /* Pods-Freezer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2JNS9YRN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Freezer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,11 +395,13 @@
 		};
 		9C37BA7C281838AE00337BEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274DD3F2ADCADB510379B218 /* Pods-Freezer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2JNS9YRN8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Freezer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
