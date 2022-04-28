@@ -7,53 +7,49 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    var timer = Timer()
-    @IBOutlet weak var imaeView: UIImageView!
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    
+    @IBOutlet weak var collectionViewHori: UICollectionView!
+    @IBOutlet weak var collectScrollVerti: UICollectionView!
+    
+    @IBOutlet weak var UserNameLabel: UILabel!
+    
+    
+    var imageArray = [UIImage(named: "hoshi"), UIImage(named: "lanadelrey"), UIImage(named: "soprano"), UIImage(named: "thegates"), UIImage(named: "amanipicci")]
+    var imageArray2 = [UIImage(named: "soprano"), UIImage(named: "thegates"), UIImage(named: "amanipicci")]
+
+    @IBAction func LoginButton(_ sender: Any) {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "second")
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    @IBOutlet weak var ImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.ramdomizedImage()
-        timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
     }
     
-    @objc func timerAction (){
-        self.ramdomizedImage()
-
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if(collectionView == collectScrollVerti){
+            return imageArray2.count
+        }
+        return imageArray.count
     }
     
-    func fetchDog(completion: @escaping (Dog) -> Void) {
-
-        //URL De l'API
-        let dogURL = URL(string: "https://dog.ceo/api/breeds/image/random")!
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionViewHori.dequeueReusableCell(withReuseIdentifier: "HomeCollectionViewCell", for: indexPath) as! HomeCollectionViewCell
+        cell.imageScrollHori.image = imageArray[indexPath.row]
         
-        // Lancement de la requete
-        let task = URLSession.shared.dataTask(with: dogURL) { data, response, error in
-    
-            if let data = data,
-                let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-                
-                    //Création de l'objet Dog à partir du dictionnaire contenu dans le call api
-                    if let dog = Dog(json: json) {
-                        completion(dog)
-                    }
-                }
+        if(collectionView == collectScrollVerti){
+            let cell2 = collectScrollVerti.dequeueReusableCell(withReuseIdentifier: "Home2CollectionViewCell", for: indexPath) as! Home2CollectionViewCell
+            cell2.imageScroll.image = imageArray2[indexPath.row]
+            return cell2
         }
-        task.resume()
-    }
-
-    func ramdomizedImage() {
-        self.fetchDog { dog in
-            
-            DispatchQueue.main.async() { [weak self] in
-                let data = try? Data(contentsOf: dog.url)
-                self?.imaeView.image = UIImage(data: data!)
-            }
-        }
+        
+        return cell
     }
     
-    @IBAction func relancerAction(_ sender: Any) {
-        self.ramdomizedImage()
-    }
+    
 }
 
