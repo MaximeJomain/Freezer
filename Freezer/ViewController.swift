@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     
@@ -15,19 +17,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     @IBOutlet weak var UserNameLabel: UILabel!
     
+    var artistResult: [Artist] = []
+    
     
     var imageArray = [UIImage(named: "hoshi"), UIImage(named: "lanadelrey"), UIImage(named: "soprano"), UIImage(named: "thegates"), UIImage(named: "amanipicci")]
     var imageArray2 = [UIImage(named: "soprano"), UIImage(named: "thegates"), UIImage(named: "amanipicci")]
-
-    @IBAction func LoginButton(_ sender: Any) {
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "second")
-        self.navigationController?.pushViewController(vc, animated: true)
-        
-    }
-    @IBOutlet weak var ImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(artistResult)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

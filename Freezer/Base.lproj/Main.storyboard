@@ -12,7 +12,7 @@
         <!--ViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Freezer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="ViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Freezer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                                     <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="LoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f0k-AB-EeN"/>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j2R-ba-6sq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Llw-Rw-dBC">
@@ -97,9 +97,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vcY-A0-Ysb"/>
-                    <connections>
-                        <outlet property="ImageView" destination="e2n-SR-WVh" id="r8d-dZ-1SA"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
