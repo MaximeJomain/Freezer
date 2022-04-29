@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1095375641866-npmpi9p90q9ovdvue1qthljcde6g2lr4.apps.googleusercontent.com</string>
+	<string>550404203935-kl6dngf34op9ii9krm9tsh75a7dr373t.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1095375641866-npmpi9p90q9ovdvue1qthljcde6g2lr4</string>
+	<string>com.googleusercontent.apps.550404203935-kl6dngf34op9ii9krm9tsh75a7dr373t</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDLVIi18WjCuFxzAS3dwNSOB0M-f1PfAb0</string>
+	<string>AIzaSyA4u3WHa79v4YDb1yVn7TNOlbZW07CfDQU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1095375641866</string>
+	<string>550404203935</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>groupe2.Freezer</string>
 	<key>PROJECT_ID</key>
-	<string>freezer-a5ce1</string>
+	<string>projet-6d269</string>
 	<key>STORAGE_BUCKET</key>
-	<string>freezer-a5ce1.appspot.com</string>
+	<string>projet-6d269.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1095375641866:ios:e04156a5f683e1ad472ef3</string>
+	<string>1:550404203935:ios:c9455b3e786fbff3ca89aa</string>
 </dict>
 </plist>
