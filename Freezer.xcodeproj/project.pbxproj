@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4DCF76281BE84200074B8B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DCF75281BE84200074B8B /* HomeViewController.swift */; };
+		1F78BAAF281BC5E2006EDFE9 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78BAAE281BC5E2006EDFE9 /* ProfilViewController.swift */; };
+		1F78BAB1281BC610006EDFE9 /* ProfilCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78BAB0281BC610006EDFE9 /* ProfilCollectionViewCell.swift */; };
 		1F7C36D828192BC6000CF594 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F7C36D728192BC6000CF594 /* GoogleService-Info.plist */; };
 		1FBA024A281AE26500E874A6 /* Home2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA0249281AE26500E874A6 /* Home2CollectionViewCell.swift */; };
 		1FBA024C281B06E500E874A6 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA024B281B06E500E874A6 /* HomeCollectionViewCell.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4DCF75281BE84200074B8B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1F78BAAE281BC5E2006EDFE9 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		1F78BAB0281BC610006EDFE9 /* ProfilCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F7C36D728192BC6000CF594 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1FBA0249281AE26500E874A6 /* Home2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2CollectionViewCell.swift; sourceTree = "<group>"; };
 		1FBA024B281B06E500E874A6 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -99,8 +105,11 @@
 				9C37BA69281838A800337BEA /* AppDelegate.swift */,
 				9C37BA6B281838A800337BEA /* SceneDelegate.swift */,
 				9C37BA6D281838A800337BEA /* ViewController.swift */,
+				1F4DCF75281BE84200074B8B /* HomeViewController.swift */,
 				1FBA024B281B06E500E874A6 /* HomeCollectionViewCell.swift */,
 				1FBA0249281AE26500E874A6 /* Home2CollectionViewCell.swift */,
+				1F78BAAE281BC5E2006EDFE9 /* ProfilViewController.swift */,
+				1F78BAB0281BC610006EDFE9 /* ProfilCollectionViewCell.swift */,
 				3C28284A28184F1A00B3CD02 /* Model */,
 				9C37BA6F281838A800337BEA /* Main.storyboard */,
 				9C37BA72281838AE00337BEA /* Assets.xcassets */,
@@ -229,7 +238,10 @@
 			files = (
 				9C37BA6E281838A800337BEA /* ViewController.swift in Sources */,
 				1FBA024A281AE26500E874A6 /* Home2CollectionViewCell.swift in Sources */,
+				1F78BAAF281BC5E2006EDFE9 /* ProfilViewController.swift in Sources */,
 				9C37BA6A281838A800337BEA /* AppDelegate.swift in Sources */,
+				1F78BAB1281BC610006EDFE9 /* ProfilCollectionViewCell.swift in Sources */,
+				1F4DCF76281BE84200074B8B /* HomeViewController.swift in Sources */,
 				3C28284928184F1000B3CD02 /* Dog.swift in Sources */,
 				9C37BA6C281838A800337BEA /* SceneDelegate.swift in Sources */,
 				1FBA024C281B06E500E874A6 /* HomeCollectionViewCell.swift in Sources */,
