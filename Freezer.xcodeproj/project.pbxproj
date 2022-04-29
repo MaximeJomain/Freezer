@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F4DCF76281BE84200074B8B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DCF75281BE84200074B8B /* HomeViewController.swift */; };
+		1F4DCF78281C134900074B8B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DCF77281C134900074B8B /* SignUpViewController.swift */; };
 		1F78BAAF281BC5E2006EDFE9 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78BAAE281BC5E2006EDFE9 /* ProfilViewController.swift */; };
 		1F78BAB1281BC610006EDFE9 /* ProfilCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78BAB0281BC610006EDFE9 /* ProfilCollectionViewCell.swift */; };
 		1F7C36D828192BC6000CF594 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F7C36D728192BC6000CF594 /* GoogleService-Info.plist */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		1F4DCF75281BE84200074B8B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1F4DCF77281C134900074B8B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1F78BAAE281BC5E2006EDFE9 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		1F78BAB0281BC610006EDFE9 /* ProfilCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F7C36D728192BC6000CF594 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				1F78BAB0281BC610006EDFE9 /* ProfilCollectionViewCell.swift */,
 				3C28284A28184F1A00B3CD02 /* Model */,
 				9C37BA6F281838A800337BEA /* Main.storyboard */,
+				1F4DCF77281C134900074B8B /* SignUpViewController.swift */,
 				9C37BA72281838AE00337BEA /* Assets.xcassets */,
 				9C37BA74281838AE00337BEA /* LaunchScreen.storyboard */,
 				9C37BA77281838AE00337BEA /* Info.plist */,
@@ -240,6 +243,7 @@
 				1FBA024A281AE26500E874A6 /* Home2CollectionViewCell.swift in Sources */,
 				1F78BAAF281BC5E2006EDFE9 /* ProfilViewController.swift in Sources */,
 				9C37BA6A281838A800337BEA /* AppDelegate.swift in Sources */,
+				1F4DCF78281C134900074B8B /* SignUpViewController.swift in Sources */,
 				1F78BAB1281BC610006EDFE9 /* ProfilCollectionViewCell.swift in Sources */,
 				1F4DCF76281BE84200074B8B /* HomeViewController.swift in Sources */,
 				3C28284928184F1000B3CD02 /* Dog.swift in Sources */,

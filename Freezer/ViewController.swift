@@ -16,6 +16,11 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func SignUpButton(_ sender: Any) {
+        if let vc2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "SignUp") as? SignUpViewController {
+            self.navigationController?.pushViewController(vc2, animated: true)
+        }
+    }
     @IBOutlet weak var ImageView: UIImageView!
     
     override func viewDidLoad() {

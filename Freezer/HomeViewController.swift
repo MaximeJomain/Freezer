@@ -12,7 +12,7 @@ class HomeViewController: UIViewController , UICollectionViewDelegate, UICollect
      
     @IBAction func ProfilButton(_ sender: Any) {
         if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Profil") as? ProfilViewController {
-            self.navigationController?.pushViewController(vc, animated: true)
+            self.present(vc, animated: true)
         }
     }
    

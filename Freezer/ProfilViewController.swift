@@ -10,11 +10,7 @@ import UIKit
 class ProfilViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     @IBOutlet weak var imageCollectionView: UICollectionView!
-    
-    @IBAction func HomeButton(_ sender: Any) {
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Home")
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
