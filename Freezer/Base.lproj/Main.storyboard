@@ -5,18 +5,22 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--ViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+<<<<<<< HEAD
                 <viewController title="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Freezer" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Freezer" customModuleProvider="target" sceneMemberID="viewController">
+>>>>>>> parent of f714af8 (Merge branch 'main' into Back)
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_connexion" translatesAutoresizingMaskIntoConstraints="NO" id="e2n-SR-WVh">
                                 <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                             </imageView>
@@ -76,10 +80,24 @@
                                     <action selector="SignUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1pK-oI-Ump"/>
                                 </connections>
                             </button>
+=======
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="JA4-6Y-vwO">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="861"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQ0-E1-ka3">
+                                <rect key="frame" x="0.0" y="861" width="428" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="connexion"/>
+                                <connections>
+                                    <action selector="relancerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlQ-o6-dRf"/>
+                                </connections>
+                            </button>
+>>>>>>> parent of f714af8 (Merge branch 'main' into Back)
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vD7-hR-Zq3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+<<<<<<< HEAD
                             <constraint firstItem="vD7-hR-Zq3" firstAttribute="trailing" secondItem="HxZ-fJ-BIm" secondAttribute="trailing" constant="50" id="7nP-YY-Yvn"/>
                             <constraint firstItem="HxZ-fJ-BIm" firstAttribute="leading" secondItem="vD7-hR-Zq3" secondAttribute="leading" constant="50" id="8Fi-V5-k8l"/>
                             <constraint firstItem="Mgg-pO-VTH" firstAttribute="leading" secondItem="vD7-hR-Zq3" secondAttribute="leading" constant="140" id="9IG-Mf-GK8"/>
@@ -105,6 +123,15 @@
                             <constraint firstItem="vD7-hR-Zq3" firstAttribute="trailing" secondItem="e2n-SR-WVh" secondAttribute="trailing" id="xnL-Oh-OPz"/>
                             <constraint firstItem="Llw-Rw-dBC" firstAttribute="top" secondItem="6Qh-mp-Q3l" secondAttribute="bottom" constant="35" id="zPW-Ul-qFm"/>
                             <constraint firstItem="e2n-SR-WVh" firstAttribute="leading" secondItem="vD7-hR-Zq3" secondAttribute="leading" id="zqs-ia-aJe"/>
+=======
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vQ0-E1-ka3" secondAttribute="trailing" id="73V-GD-6bP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vQ0-E1-ka3" secondAttribute="bottom" id="FqJ-pV-LmT"/>
+                            <constraint firstItem="JA4-6Y-vwO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="blw-Kn-rW8"/>
+                            <constraint firstItem="vQ0-E1-ka3" firstAttribute="top" secondItem="JA4-6Y-vwO" secondAttribute="bottom" id="fS8-el-jP9"/>
+                            <constraint firstAttribute="trailing" secondItem="JA4-6Y-vwO" secondAttribute="trailing" id="on2-6U-Ogs"/>
+                            <constraint firstItem="JA4-6Y-vwO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="q22-4F-oZt"/>
+                            <constraint firstItem="vQ0-E1-ka3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tDU-hX-eE8"/>
+>>>>>>> parent of f714af8 (Merge branch 'main' into Back)
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="SC4-eX-PlH" appends="YES" id="10D-3i-4m1"/>
@@ -112,6 +139,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="something" id="XFA-pu-DON"/>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="emailInput" destination="cb2-HB-Xvp" id="8or-tu-mJm"/>
                         <outlet property="passwordInput" destination="krr-gY-g5s" id="3mJ-gT-6cc"/>
                         <segue destination="zIf-57-LvT" kind="show" identifier="goToHome" id="3po-G4-86S"/>
@@ -318,6 +346,25 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xlj-A7-FIy">
                                 <rect key="frame" x="330.5" y="35" width="63.5" height="32"/>
+=======
+                        <outlet property="imaeView" destination="JA4-6Y-vwO" id="uZB-q9-3gV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="806"/>
+        </scene>
+        <!--Connection View Controller-->
+        <scene sceneID="MoM-Ls-e5L">
+            <objects>
+                <viewController storyboardIdentifier="connexionview" id="x6o-aG-dYi" customClass="ConnectionViewController" customModule="Freezer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9BY-dd-YXA">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tfz-TY-9Za">
+                                <rect key="frame" x="175" y="861" width="78" height="31"/>
+>>>>>>> parent of f714af8 (Merge branch 'main' into Back)
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Profil">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
@@ -785,14 +832,14 @@
             <point key="canvasLocation" x="886" y="720"/>
         </scene>
     </scenes>
+<<<<<<< HEAD
     <inferredMetricsTieBreakers>
         <segue reference="DMP-eu-gWw"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+=======
+>>>>>>> parent of f714af8 (Merge branch 'main' into Back)
     <resources>
-        <image name="logo" width="190" height="148"/>
-        <image name="photo_connexion" width="5267" height="7900"/>
-        <image name="photo_home" width="5267" height="7900"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
